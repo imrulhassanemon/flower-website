@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+VLG:wght@100..400&family=Solitreo&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Exo 2", sans-serif;
+
+}
+.header-container{
+    max-width: 1920px;
+    height: 850px;
+    background-color: #E554731A; 
+}
+.hader-content{
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+    margin: 0 auto;
+}
+.header-h1{
+    font-size: 5rem;
+    font-weight: 800;
+}
+.header-para{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.header-div1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-div1 button{
+    padding: 20px 43px;
+    background-color: #E55473;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin-right: 672px;
+    margin-top: 30px;
+    
+}
