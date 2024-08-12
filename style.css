@@ -169,3 +169,29 @@ body{
     justify-content: space-between;
     margin-top: 50px;
 }
+/* ________________________________________________________________________ */
+/* the last deal content*/
+
+.last-deal-content{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    justify-content: center;
+    height: 600px;
+}
+#input{
+    width: 600px;
+    height: 40px;
+    border: none;
+    box-shadow: 2px 2px 4px inset;
+    border-radius: 10px;
+}
+.submit{
+    background-color: #E55473;
+    padding: 11px 30px;
+    border-radius: 8px;
+    margin-left: 16px;
+}
