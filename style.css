@@ -17,17 +17,19 @@ body{
 .hader-content{
     display: flex;
     justify-content: space-between;
-    width: 89%;
+    width: 80%;
     margin: 0 auto;
+    padding-top: 50px;
 }
 .header-h1{
-    font-size: 5rem;
+    font-size: 5rem;    
     font-weight: 800;
 }
 .header-para{
     font-size: 1.2rem;
     font-weight: 400;
-    margin-top: 30px;
+    margin-top: 25px;
+    color: #27272799;
 }
 .header-div1{
     width: 50%;
@@ -43,7 +45,127 @@ body{
     border-radius: 8px;
     font-size: 1.25rem;
     color: #ffffff;
-    margin-right: 672px;
-    margin-top: 30px;
+    margin-right: 580px;
+    margin-top: 30px;   
+}
+/* our feature section  */
+
+.our-feature-section{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+    /* height: 900px;  */
+    /* border: 3px solid red; */
+}
+.our-feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-feature-h1{
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 800;
+   
+}
+.feature-image{
+    display: flex;
+    gap: 30px ;
+    justify-content: space-between;
+    text-align: center;
+}
+.images{
+    height: 530px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 50% 50% 0 0;
+}
+.feature-image img{
+    height: 500px;
+    width: 450px;
+}
+#first{
+   background-color:rgba(167, 33, 98, 0.15);  
+    padding: 110px 70px 0px 70px;
+}
+#second{
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 110px 70px 0px 70px;
+}
+#third{
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 110px 70px 0px 70px;
+   
+}
+/* _____________________________________________________ */
+/* our support section  */
+.our-support{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color:rgba(39, 39, 39, 0.05);
+    margin-top: 120px;
+    padding: 80px 150px;
+    border-radius: 8px;
+}
+.sale-0ff{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.sale-off-container{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 120px;
+    padding: 100px 0px 100px 0px;
+}
+.hot-deal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.hot-para{
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.hot-deal button{
+    padding: 20px 40px;
+    border: none;
+    background-color: rgba(229, 84, 115, 1);
+    font-size: 1.25rem;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 8px;
+}
+/* _______________________________________________________________________________________ */
+.insta-container{
+    max-width: 80%;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 120px;
     
+}
+.insta-content{
+    text-align: center;
+    max-width: 45%;
+    margin: 0 auto;
+}
+.insta-images{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
